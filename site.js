@@ -14,3 +14,13 @@ contactLink.style.fontWeight = "bold"
 
 const links = document.querySelectorAll('nav a')
 links.forEach(link => link.style.display = 'none')
+
+// control alt and arrow down for multiple cursor
+
+const person = {
+    "firstName" : "Dylan",
+    "lastName": "Butzlaff",
+    "job": "Student"
+}
+
+console.log(person.firstName)
